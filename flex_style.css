@@ -13,17 +13,17 @@ html, body {
   background-color: red;
 }
 
-.box2{
+.box2 {
   width: 40%;
   background-color: green;
 }
 
-.box3{
+.box3 {
   width: 30%;
   background-color: blue;
 }
 
 @media screen and (max-width:900px) {
 .box3 {order: 1;}
-.box1 {order:2;}
+.box1 {order: 2;}
 }
